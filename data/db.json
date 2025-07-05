@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "New iPhone 17 will be released soon",
+      "datetime": "July 20, 2023 10:40:20 AM",
+      "body": "The new iPhone 17 is set to be released next month, featuring a sleek design and advanced camera technology. Apple has introduced several improvements in battery life, display quality, and performance. The device will also include iOS 18, which offers new productivity features, enhanced privacy settings, and smarter Siri suggestions."
+    },
+    {
+      "id": "2",
+      "title": "React 19 Announced with Massive Improvements",
+      "datetime": "August 14, 2023 2:25:00 PM",
+      "body": "React 19 introduces a completely new rendering engine that improves performance for large-scale applications. Developers can now use built-in async components, enhanced concurrent features, and better developer tooling. The React team also focused on reducing bundle size and improving developer ergonomics."
+    },
+    {
+      "id": "3",
+      "title": "Exploring the Depth of JavaScript ES2024",
+      "datetime": "September 9, 2023 1:05:30 PM",
+      "body": "ES2024 adds new language features like pipeline operators, pattern matching, and improved async handling. These updates aim to make JavaScript cleaner and more expressive, reducing the need for nested callbacks and increasing code readability. Developers are encouraged to explore polyfills or Babel plugins to try them early."
+    },
+    {
+      "id": "4",
+      "title": "Understanding CSS Container Queries",
+      "datetime": "October 3, 2023 9:10:10 AM",
+      "body": "CSS Container Queries allow elements to respond to the size of their containers rather than the entire viewport. This brings true modular responsive design to the web, enabling component-based layout logic. Combined with media queries, container queries give designers unparalleled control over UI behavior across devices and layouts."
+    },
+    {
+      "id": "5",
+      "title": "Why TypeScript Is Becoming a Must-Have in 2024",
+      "datetime": "July 03, 2025 3:31:26 PM",
+      "body": "TypeScript adoption has surged in recent years due to its ability to prevent bugs through static typing. With enhanced support in major frameworks like React, Angular, and Node.js, TypeScript is becoming a standard for scalable applications. It improves developer confidence, provides better IntelliSense, and facilitates easier refactoring in large codebases."
+    }
+  ]
+}
