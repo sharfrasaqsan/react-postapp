@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-const Post = ({ post }) => {
+const PostCard = ({ post }) => {
   return (
     <article className="post">
       <Link to={`post/${post.id}`} className="back-link">
@@ -17,4 +17,4 @@ const Post = ({ post }) => {
   );
 };
 
-export default Post;
+export default PostCard;
