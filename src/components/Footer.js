@@ -1,5 +1,4 @@
-import React from "react";
-import "./styles.css"; // Unified styles
+import "./styles.css";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

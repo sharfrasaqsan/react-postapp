@@ -1,7 +1,11 @@
 import Feed from "./Feed";
 import "./styles.css";
+import { useContext } from "react";
+import DataContext from "../context/DataContext";
 
-const Home = ({ posts }) => {
+const Home = () => {
+  const { posts } = useContext(DataContext);
+
   return (
     <main className="home">
       {posts.length ? (

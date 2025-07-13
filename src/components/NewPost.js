@@ -1,12 +1,11 @@
 import "./styles.css";
+import { useContext } from "react";
+import DataContext from "../context/DataContext";
 
-const NewPost = ({
-  postTitle,
-  setPostTitle,
-  postBody,
-  setPostBody,
-  handlesubmit,
-}) => {
+const NewPost = () => {
+  const { postTitle, setPostTitle, postBody, setPostBody, handlesubmit } =
+    useContext(DataContext);
+
   return (
     <main className="new-post-container">
       <h2 className="new-post-heading">Create New Post</h2>

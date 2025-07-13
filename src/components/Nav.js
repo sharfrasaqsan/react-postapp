@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import "./styles.css";
+import { useContext } from "react";
+import DataContext from "../context/DataContext";
 
-const Nav = ({ search, setSearch }) => {
+const Nav = () => {
+  const { search, setSearch } = useContext(DataContext);
+
   return (
     <nav className="nav">
       <div className="nav-search-wrapper">
